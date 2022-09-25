@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Welfare Orgnization Form</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <!--header section-->
+    <form> 
+            <legend> Student Registration Form</legend>
+
+
+            <div>
+                <label for="firstname">First Name:</label>
+                <input clsss="redi" type="text" name="firstname" id="firstname"; placeholder="enter your name"; required >
+                <label for="lastname"> Last Name:</label>
+                <input  type="text" name="lastname" id="lastname"; placeholder="enter your name";>
+            </div><br>
+            <div> 
+                <label for="fathername">Father's Name:</label>
+                <input  type="text" name="fathername" id="fathername" placeholder="enter your father's name"> 
+            </div><br>
+            <div>
+                <label for="mothername">Mother's Name:</label>
+                <input type="text" name="mothername" id="mothername" placeholder="enter your mother's name"> 
+            </div>
+            <div><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="date" id="dob" required>
+            </div><br>
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email " placeholder="enter your email">
+            </div><br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input class="male" type="radio" name="gender" id="gender" value="male"> Male
+                <input class="female"  type="radio" name="gender" id="gender" value="female">Female
+            </div><br>
+            <div>
+                <label for="religion">Religion:</label> 
+                <p></p>
+                Muslim<input  type="checkbox" name="religion" id="religion"> 
+                Hindu<input type="checkbox" name="religion" id="religion">  
+                Other's<input type="checkbox" name="religion" id="religion">  
+            </div><br>
+            <div>
+                <label for="class">Choose Your Class:</label>
+                <select  name="class">
+                    <option value="six"> Six</option>
+                    <option value="seven">Seven</option>
+                    <option value="eight">Eight</option>
+                    <option value="nine">Nine</option>
+                    <option value="ten">Ten</option>
+                    <option value="other">other</option>
+                </select>
+                
+            </div>
+                 <!--end section-->
+            <div>
+                <label for="messege">Messege</label><br>
+                <textarea name="mes" id="mes" cols="30" rows="10" placeholder="Please type your messege here....."></textarea>
+            </div>
+            <div><br>
+                
+                <input  class="sub" type="submit" value="Submit">
+                <input   class="sub" type="reset" value="Reset">
+            </div>
+        </form>
+  
+     
+        <p> Copyright by &copy;masum</p>
+
+</body>
+</html>

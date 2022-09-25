@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background:antiquewhite;
+    border:1px solid rgb(36, 28, 28);
+    margin:10px;
+    padding:20px;
+     
+
+}
+
+legend{
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+form{
+    font-weight: bold;
+    font-size:20px;
+   
+    padding:10px;
+    color:black;   
+
+}
+ 
+
+
+input{
+    font-weight:bold;
+    padding:10px;
+    margin:10px 0;
+    width:100%;
+    height:40px;
+    border-radius: 100px;
+}
+
+input:hover{
+    background-color: tan;
+}
+
+
+
+#gender{
+    
+    width:50px;
+    height: 15px;
+    padding: 10px; 
+}
+#religion  {
+    
+    width:50px;
+    height: 15px;
+    margin: 10px 0;
+    padding: 10px;
+ 
+}
+
+ select{
+    margin:10px;
+
+
+ }
+ #mes{
+    margin:20px 0;
+    padding:10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+.sub{
+    width:80px;
+    height:40px;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    font-size: 150x;
+    background-color: rgb(50, 200, 205);
+}
+p{
+    text-align: center;
+
+}
